@@ -1,0 +1,27 @@
+
+header{
+    background-color: rgb(252, 216, 169);
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    font-size: 20px;
+    text-align: center;
+}
+
+#form{
+    background-color: bisque;
+    color: black;
+    max-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+#clone-button{
+    background-color: rgb(173, 230, 87);
+}
+
+#content{
+    height: 60vh;
+}
+
