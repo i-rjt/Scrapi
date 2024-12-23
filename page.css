@@ -5,6 +5,12 @@ header{
     font-family: 'Gill Sans', 'Gill Sans MT';
     font-size: 20px;
     text-align: center;
+    background: linear-gradient(to right, rgb(233, 116, 116), rgb(173, 230, 87));
+}
+
+header:hover{
+    transition: 0.5s ease;
+    font-size: 23px;
 }
 
 #form{
@@ -15,13 +21,31 @@ header{
     align-items: center;
     justify-content: center;
     margin-bottom: 60px;
+    background: linear-gradient(to right, rgb(233, 116, 116), rgb(173, 230, 87));
+    transition: all;
 }
 
 #clone-button{
-    background-color: rgb(173, 230, 87);
+    background-color: rgb(173, 253, 107);
+   border-radius: 13px;
+   height: 6vh;
+  margin-left: 10px;
+  font-weight: bold;
+
 }
 
 #content{
     height: 60vh;
 }
 
+#url-input{
+    border-radius: 13px 1px 10px;
+    height: 5vh;
+
+}
+
+.pre{
+   text-align: end;
+    margin-left: 10px;
+    right: 0;
+}
