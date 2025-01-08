@@ -25,6 +25,11 @@ header:hover{
     transition: all;
 }
 
+#form:hover{
+	background-color: #c4c4c4;
+	background: linear-gradient(to right, rgb(210, 147, 238), rgb(58, 222,123));
+}
+
 #clone-button{
     background-color: rgb(173, 253, 107);
    border-radius: 13px;
